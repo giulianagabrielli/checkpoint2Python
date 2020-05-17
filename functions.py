@@ -7,7 +7,7 @@ def createItem(leak):
             input("Set e-mail: "),
             input("Set password: ")
         ]
-    answer = input("Do you wish to proceed with another registration? Y/N").upper()
+        answer = input("Do you wish to proceed with another registration? Y/N").upper()
 
 #
 def readItem(leak):
@@ -32,7 +32,6 @@ def updateItem(leak):
         print("Password....", value[1])
     else:
         print("Item not found. Try again!")
-        # MENU
 
 # 
 def deleteItem(leak):
@@ -42,7 +41,6 @@ def deleteItem(leak):
         print(key + " has been successfully deleted.")
     else:
         print("Item not found. Try again!")
-        # MENU
 
 # 
 def fetchItem(leak):
