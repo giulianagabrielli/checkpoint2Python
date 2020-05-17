@@ -56,20 +56,3 @@ def fetchItem(leak):
 
 
 
-     
-
-    # if key != None:
-    #     value = key.values()
-    #     value[0] = input("Set new e-mail: ")
-    #     value[1] = input("Set new password: ")
-    #     leak[key] = [value[0], value[1]]
-    # else: 
-    #     print("No key found. Try again.")
-
-    # print("${key} has been updated successfully")
-    # print("Key.........", key)
-    # print("E-mail......", value[0])
-    # print("Password....", value[1])
-
-#
-
